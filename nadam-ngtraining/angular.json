@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "nadam-ngtraining:build:production"
+              "buildTarget": "nadam-ngtraining:build:production"
             },
             "development": {
-              "browserTarget": "nadam-ngtraining:build:development"
+              "buildTarget": "nadam-ngtraining:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "nadam-ngtraining:build"
+            "buildTarget": "nadam-ngtraining:build"
           }
         },
         "test": {
